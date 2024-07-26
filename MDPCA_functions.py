@@ -2,7 +2,8 @@
 # coding: utf-8
 
 # In[1]:
-
+import numpy as np
+import pandas as pd
 
 def create_extended_data_matrix(Z, l):
     rows, cols = Z.shape

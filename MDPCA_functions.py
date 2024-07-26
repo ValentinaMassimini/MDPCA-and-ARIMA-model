@@ -4,6 +4,7 @@
 # In[1]:
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
 
 def create_extended_data_matrix(Z, l):
     rows, cols = Z.shape

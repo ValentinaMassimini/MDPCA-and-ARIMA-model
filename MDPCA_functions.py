@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[1]:
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+# In[1]:
+
 
 def create_extended_data_matrix(Z, l):
     rows, cols = Z.shape
